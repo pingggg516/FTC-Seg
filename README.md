@@ -28,8 +28,8 @@ pretrained/dinov2_small.pth
 
 | Dataset | Download |
 | --- | --- |
-| FSSG | [Baidu Netdisk](https://pan.baidu.com/s/10qCqdCkPZ_o7hk7KlC74nw?pwd=0516) · Code: `0516` |
-| FLSMD | Link and access code coming soon |
+| FSSG | [Baidu Netdisk](https://pan.baidu.com/s/10qCqdCkPZ_o7hk7KlC74nw?pwd=0516) |
+| FLSMD | [Baidu Netdisk]([https://pan.baidu.com/s/10qCqdCkPZ_o7hk7KlC74nw?pwd=0516](https://pan.baidu.com/s/1j4jLaXTlAi6pjsN1hnDrdA?pwd=0516)) |
 | SUIM | [Official website](https://irvlab.cs.umn.edu/resources/suim-dataset) |
 | ACDC | [Official website](https://acdc.vision.ee.ethz.ch/download) |
 
