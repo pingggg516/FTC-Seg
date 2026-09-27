@@ -32,8 +32,6 @@ FTC-Seg/
     └── dinov2_small.pth
 ```
 
-This is the backbone initialization for training. Evaluation uses the complete FTC-Seg checkpoint produced by training.
-
 ## Dataset Preparation
 
 Configurations are provided for four datasets:
@@ -65,23 +63,6 @@ Set `data_root` in the corresponding configuration. For FSSG:
 dataset: FSSG
 data_root: /path/to/dataset_root
 ```
-
-Masks must contain a single channel of integer class IDs in `0 ... nclass-1`; `255` denotes ignored pixels. Image and mask dimensions must match. Convert RGB color annotations to class-ID masks before use. ACDC masks must use the 19 training IDs `0 ... 18`.
-
-### Split Files
-
-Prepare your own labeled and unlabeled training lists and pass their paths to the training command. The labeled/unlabeled training partitions are not included in this repository.
-
-Use the following format for split lists, with one image-mask pair per line and a single space between the paths:
-
-```text
-Images/00001.png Masks/00001.png
-Images/00002.png Masks/00002.png
-```
-
-Paths are relative to `data_root`. The unlabeled training loader only reads the image; it does not use the listed mask.
-
-During training, the validation list is selected automatically as `splits/<dataset>/val.txt`. The `dataset` value in the YAML file must match the split directory name exactly, including capitalization. During inference, specify the validation list explicitly with `--split-path`.
 
 ## FSSG Dataset
 
