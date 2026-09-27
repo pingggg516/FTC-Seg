@@ -57,8 +57,6 @@ For SUIM, the training pool and FTC-Seg validation list partition the official 1
 - **SUIM:** Cite Md Jahidul Islam et al., [Semantic Segmentation of Underwater Imagery: Dataset and Benchmark](https://arxiv.org/abs/2004.01241), IROS 2020. Obtain the data from the official page and follow the original provider's terms.
 - **ACDC:** Cite Christos Sakaridis, Dengxin Dai, and Luc Van Gool, *ACDC: The Adverse Conditions Dataset with Correspondences for Semantic Driving Scene Understanding*, ICCV 2021; see the [official citation page](https://acdc.vision.ee.ethz.ch/citation). Download and use the data under the [official license](https://acdc.vision.ee.ethz.ch/license).
 
-Dataset licenses are separate from the MIT license covering the FTC-Seg code.
-
 ### Required Directory and Split Format
 
 Each dataset has its own root containing `Images/` and `Masks/`. Set that root in the corresponding YAML configuration:
