@@ -1,0 +1,22 @@
+dataset: FSSG
+nclass: 11
+crop_size: 518
+data_root: /path/to/datasets/FSSG
+
+
+epochs: 240
+batch_size: 4
+lr: 0.000005
+lr_multi: 40.0
+criterion:
+  name: CELoss
+  kwargs:
+    ignore_index: 255
+conf_thresh: 0.95
+
+model: dpt
+backbone: dinov2_small
+lock_backbone: False
+
+opr_foreground_class_ids: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
