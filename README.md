@@ -57,8 +57,6 @@ Images/example.png Masks/example.png
 
 Masks must be single-channel class-ID images. Training automatically uses `splits/<dataset>/val.txt`, where `<dataset>` is the YAML `dataset` value.
 
-Provide your own labeled/unlabeled training lists, excluding validation and test samples.
-
 ### SUIM
 
 Download `SUIM.zip` from the official website. Use the 1,525 image-mask pairs in `train_val/`:
