@@ -1,11 +1,6 @@
 # FTC-Seg
 
-Official implementation of **When Noise Meets Long-Tail: Feature-Threshold Dual Calibration for Robust Pseudo-Labeling**.
-
-FTC-Seg is a teacher-student framework for semi-supervised semantic segmentation. It combines:
-
-- **Orthogonal Prototype Reconstruction (OPR):** calibrates features through prototype reconstruction, foreground-aware prototype selection, and orthogonality regularization.
-- **Adaptive Threshold Calibration (ATC):** adjusts class-specific pseudo-label thresholds according to learning difficulty and prediction-distribution bias.
+**When Noise Meets Long-Tail: Feature-Threshold Dual Calibration for Robust Pseudo-Labeling**.
 
 ## Installation
 
