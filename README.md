@@ -4,8 +4,6 @@
 
 ## Installation
 
-Training and inference have been tested on Linux with Python 3.10, PyTorch 1.12.1, and torchvision 0.13.1 using CUDA 11.3 builds.
-
 After downloading this repository, create an environment:
 
 ```bash
