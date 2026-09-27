@@ -1,6 +1,6 @@
 # FTC-Seg
 
-**NeurIPS2026: When Noise Meets Long-Tail: Feature-Threshold Dual Calibration for Robust Pseudo-Labeling**.
+**NeurIPS 2026: When Noise Meets Long-Tail: Feature-Threshold Dual Calibration for Robust Pseudo-Labeling**.
 
 ## Installation
 
