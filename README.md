@@ -177,7 +177,7 @@ Choose evaluation settings as follows:
 | SUIM | 8 | `original` | None |
 | ACDC | 19 | `sliding_window` | `--crop-size 798` |
 
-For ACDC, also select its dataset root, checkpoint, and `splits/ACDC/val.txt`. If you change the validation crop size in the training configuration, use the same crop size for sliding-window inference.
+For ACDC, also select its dataset root, checkpoint, and `splits/ACDC/val.txt`.
 
 The inference output directory **must not already exist**. Each evaluation creates:
 
