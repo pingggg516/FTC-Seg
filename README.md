@@ -172,13 +172,15 @@ tensorboard --logdir ./exp/FTC-Seg
 
 ## Inference
 
-Check the selected checkpoint branch:
+Check the value to use for `--checkpoint-key`:
 
 ```bash
-python -c "import torch; c = torch.load('./exp/FTC-Seg/FSSG_5_full/best.pth', map_location='cpu'); print(c['selected_branch'], c['selected_miou'])"
+python -c "import torch; c = torch.load('./exp/FTC-Seg/FSSG_5_full/best.pth', map_location='cpu'); print(c['selected_branch'])"
 ```
 
-Set `--checkpoint-key` to the printed branch: `model` or `model_ema`.
+Set `--checkpoint-key` to the printed value: `model` for the student or `model_ema` for the EMA teacher.
+
+The following example uses `model_ema`:
 
 ```bash
 CUDA_VISIBLE_DEVICES=0 python inference.py \
