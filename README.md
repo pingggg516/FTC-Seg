@@ -231,4 +231,17 @@ This project is released under the [MIT License](LICENSE).
 
 ## Citation
 
-Citation information will be added when available.
+
+If you find this project useful, please consider citing:
+```bash
+@misc{guo2026noisemeetslongtailfeaturethreshold,
+      title={When Noise Meets Long-Tail: Feature-Threshold Dual Calibration for Robust Pseudo-Labeling}, 
+      author={Ping Guo and Zhiqi Huang and Xinran Li},
+      year={2026},
+      eprint={2609.33668},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2609.33668}, 
+}
+```
+
