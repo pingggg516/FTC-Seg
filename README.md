@@ -32,7 +32,7 @@ pretrained/dinov2_small.pth
 | SUIM | [Official website](https://irvlab.cs.umn.edu/resources/suim-dataset) |
 | ACDC | [Official website](https://acdc.vision.ee.ethz.ch/download) |
 
-FSSG and FLSMD are provided in the required format. Prepare SUIM and ACDC as described below.
+FLSMD is provided in the required format. Prepare SUIM and ACDC as described below.
 
 ### Data Format
 
