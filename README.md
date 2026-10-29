@@ -28,11 +28,12 @@ pretrained/dinov2_small.pth
 
 | Dataset | Download |
 | --- | --- |
+| FSSG | [Baidu Netdisk](https://pan.baidu.com/s/12Awtkr8GCzO2tiNnHp08Yw?pwd=0516) |
 | FLSMD | [Baidu Netdisk](https://pan.baidu.com/s/1_2VGVBccR1q1laoalS9Trw?pwd=0516) |
 | SUIM | [Official website](https://irvlab.cs.umn.edu/resources/suim-dataset) |
 | ACDC | [Official website](https://acdc.vision.ee.ethz.ch/download) |
 
-FLSMD is provided in the required format. Prepare SUIM and ACDC as described below.
+FSSG and FLSMD are provided in the required format. Prepare SUIM and ACDC as described below.
 
 ### Data Format
 
@@ -124,6 +125,7 @@ Images/GOPR0476_frame_000761_rgb_anon.png Masks/GOPR0476_frame_000761_gt_labelTr
 
 Please cite the corresponding dataset papers:
 
+- **FSSG:** [CTFS: Collaborative Teacher Framework for Forward-Looking Sonar Image Semantic Segmentation with Extremely Limited Labels](https://arxiv.org/abs/2603.21071). Non-commercial use only. Please cite the paper and acknowledge the [original dataset repository](https://github.com/pingggg516/CTFS).
 - **FLSMD:** [The Marine Debris Dataset for Forward-Looking Sonar Semantic Segmentation](https://arxiv.org/abs/2108.06800) and [The Marine Debris Forward-Looking Sonar Datasets](https://arxiv.org/abs/2503.22880). Our copy reformats the [original data](https://zenodo.org/records/15101686) and retains its [CC BY-NC-SA 4.0 license](https://creativecommons.org/licenses/by-nc-sa/4.0/).
 - **SUIM:** [Semantic Segmentation of Underwater Imagery: Dataset and Benchmark](https://arxiv.org/abs/2004.01241). Follow the original provider's usage terms.
 - **ACDC:** [ACDC: The Adverse Conditions Dataset with Correspondences for Semantic Driving Scene Understanding](https://acdc.vision.ee.ethz.ch/citation). Follow the [official dataset license](https://acdc.vision.ee.ethz.ch/license).
@@ -198,6 +200,7 @@ The backbone, class count, and OPR layer count must match the checkpoint. Use th
 
 | Dataset | `--nclass` | `--mode` | Additional option |
 | --- | ---: | --- | --- |
+| FSSG | 11 | `original` | — |
 | FLSMD | 12 | `original` | — |
 | SUIM | 8 | `original` | — |
 | ACDC | 19 | `sliding_window` | `--crop-size 798` |
